@@ -1,0 +1,55 @@
+*** Creating Trace Output File '..\Output\STM32-DEMO.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\output\startup_stm32f10x_hd.o"'
+### List of Objects: adding '"..\output\stm32f10x_it.o"'
+### List of Objects: adding '"..\output\debug_uart.o"'
+### List of Objects: adding '"..\output\tm_stm32f4_timer_properties.o"'
+### List of Objects: adding '"..\output\tm_stm32f4_delay.o"'
+### List of Objects: adding '"..\output\tm_stm32f4_ds18b20.o"'
+### List of Objects: adding '"..\output\tm_stm32f4_onewire.o"'
+### List of Objects: adding '"..\output\tm_stm32f4_am2301.o"'
+### List of Objects: adding '"..\output\tm_stm32f4_rtc.o"'
+### List of Objects: adding '"..\output\tm_stm32f4_gpio.o"'
+### List of Objects: adding '"..\output\tm_stm32f4_usart.o"'
+### List of Objects: adding '"..\output\tm_stm32f4_adc.o"'
+### List of Objects: adding '"..\output\tm_stm32f4_fatfs.o"'
+### List of Objects: adding '"..\output\diskio.o"'
+### List of Objects: adding '"..\output\ff.o"'
+### List of Objects: adding '"..\output\syscall.o"'
+### List of Objects: adding '"..\output\unicode.o"'
+### List of Objects: adding '"..\output\fatfs_sd_sdio.o"'
+### List of Objects: adding '"..\output\stw_timer.o"'
+### List of Objects: adding '"..\output\stw_system_timer.o"'
+### List of Objects: adding '"..\output\ipc.o"'
+### List of Objects: adding '"..\output\resources.o"'
+### List of Objects: adding '"..\output\realmain.o"'
+### List of Objects: adding '"..\output\stm32f10x_gpio.o"'
+### List of Objects: adding '"..\output\stm32f10x_rcc.o"'
+### List of Objects: adding '"..\output\stm32f10x_adc.o"'
+### List of Objects: adding '"..\output\stm32f10x_dma.o"'
+### List of Objects: adding '"..\output\stm32f10x_flash.o"'
+### List of Objects: adding '"..\output\misc.o"'
+### List of Objects: adding '"..\output\stm32f10x_tim.o"'
+### List of Objects: adding '"..\output\stm32f10x_rtc.o"'
+### List of Objects: adding '"..\output\stm32f10x_bkp.o"'
+### List of Objects: adding '"..\output\stm32f10x_pwr.o"'
+### List of Objects: adding '"..\output\stm32f10x_exti.o"'
+### List of Objects: adding '"..\output\stm32f10x_usart.o"'
+### List of Objects: adding '"..\output\stm32f10x_sdio.o"'
+### List of Objects: adding '"..\output\core_cm3.o"'
+### List of Objects: adding '"..\output\system_stm32f10x.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "..\output\startup_stm32f10x_hd.o" "..\output\stm32f10x_it.o" "..\output\debug_uart.o" "..\output\tm_stm32f4_timer_properties.o" "..\output\tm_stm32f4_delay.o" "..\output\tm_stm32f4_ds18b20.o" "..\output\tm_stm32f4_onewire.o" "..\output\tm_stm32f4_am2301.o" "..\output\tm_stm32f4_rtc.o" "..\output\tm_stm32f4_gpio.o" "..\output\tm_stm32f4_usart.o" "..\output\tm_stm32f4_adc.o" "..\output\tm_stm32f4_fatfs.o" "..\output\diskio.o" "..\output\ff.o" "..\output\syscall.o" "..\output\unicode.o" "..\output\fatfs_sd_sdio.o" "..\output\stw_timer.o" "..\output\stw_system_timer.o" "..\output\ipc.o" "..\output\resources.o" "..\output\realmain.o" "..\output\stm32f10x_gpio.o" "..\output\stm32f10x_rcc.o" "..\output\stm32f10x_adc.o" "..\output\stm32f10x_dma.o" "..\output\stm32f10x_flash.o" "..\output\misc.o" "..\output\stm32f10x_tim.o" "..\output\stm32f10x_rtc.o" "..\output\stm32f10x_bkp.o" "..\output\stm32f10x_pwr.o" "..\output\stm32f10x_exti.o" "..\output\stm32f10x_usart.o" "..\output\stm32f10x_sdio.o" "..\output\core_cm3.o" "..\output\system_stm32f10x.o" --ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\Listing\STM32-DEMO.map" -o "..\Output\STM32-DEMO.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\Output\STM32-DEMO.axf'
+### ADS-LD Command File: '..\Output\STM32-DEMO.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\Output\STM32-DEMO.lnp', Handle=0x000002F4
+### Writing '.lnp' file
+### ADS-LD Command file '..\Output\STM32-DEMO.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

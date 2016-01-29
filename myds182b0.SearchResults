@@ -1,0 +1,61 @@
+---- printf Matches (60 in 6 files) ----
+Demo_stw.c (estw-1.0.1\stw\test):        printf("%s\n", instructions[i] );
+Demo_stw.c (estw-1.0.1\stw\test):    printf("%s timer b count=%u \n",
+Demo_stw.c (estw-1.0.1\stw\test):    printf("%s timer a count=%u \n", 
+Ipc.c (user):	printf("get a valid slot at : %d\n", insert_at);
+Ipc.c (user):	printf("cmd inserted: %d\n", cmd);
+Ipc.c (user):		printf("get a valid cmd:%d\n", *cmd);
+Main.c (user):		printf("%s", buf);
+Main.c (user):				printf("%s", buf);
+Main.c (user):			printf("\n");
+Main.c (user):		printf("No devices on OneWire.\n");
+Main.c (user):				printf("%s", buf);
+Main.c (user):				printf("Reading error;\n");
+Main.c (user):		printf("%s", buf);
+Main.c (user):				printf("Device with alarm: ");
+Main.c (user):					printf("%s", buf);
+Main.c (user):				printf("\n    ");
+Main.c (user):			printf("ALARM devices recognized!\n\r");
+Main.c (user):		printf("----------\n");
+Main.c (user):		printf("I am out of delay\n");
+Main.c (user):	printf("DHT11\nSensor");
+Main.c (user):                printf("Humidity: %2.1f %%\nTemperature: %2.1f C", (float)data.Hum / 10, (float)data.Temp / 10);
+Main.c (user):	printf("Alarm configured\n");
+Main.c (user):        printf("%4d: %4d\n\r", TM_ADC_Read(ADC1, ADC_Channel_0), TM_ADC_Read(ADC1, ADC_Channel_3));
+Main.c (user):        printf("SDFS Mount successfully\n");
+Main.c (user):			printf("file open successfully\n");            
+Main.c (user):                printf("file written\n");
+Main.c (user):	printf("Alarm configured\n");
+Main.c (user):	printf("wakeup timeout: %s\n", buf);
+Main.c (user):	printf("Alarm A triggered\n");
+Main.c (user):    printf("%s timer a count=%u \n", 
+Realmain.c (user):			printf("average humd:%d\n", avg_val);
+Realmain.c (user):	printf("handle cmd %d\n", cmd);
+Resources.c (user)://			printf("Devices found on 1-wire: %d\n", count);
+Resources.c (user)://					printf("0x%02X ", device[j][i]);
+Resources.c (user)://				printf("\n");
+Resources.c (user):			printf("No devices on OneWire.\n");
+Resources.c (user):				printf("Temp %d: %d; \n", i, (int)temps[i]);
+Resources.c (user):				printf("Reading error;\n");
+Resources.c (user)://		printf("Devices with alarm: %d\n", alarm_count);
+Resources.c (user)://				printf("Device with alarm: ");
+Resources.c (user)://					printf("0x%02X ", alarm_device[j][i]);
+Resources.c (user)://				printf("\n    ");
+Resources.c (user)://			printf("ALARM devices recognized!\n\r");
+Resources.c (user)://		printf("----------\n");
+Resources.c (user):        printf("Humidity: %2.1f %%\nTemperature: %2.1f C", (float)(((TM_AM2301_Data_t *)data)->Hum / 10), 
+Resources.c (user):	printf("soilhumd get : %d\n", ret);
+Resources.c (user):	printf("growlight: %s\n", (*(uint32_t *)data) ? "enable" : "disable");
+Resources.c (user):	printf("WarmLight: %s\n", (*(uint32_t *)data) ? "enable" : "disable");
+Resources.c (user):	printf("light val: %d\n", ret);
+Resources.c (user):	printf("pumpA: %s\n", (*(uint32_t *)data) ? "enable" : "disable");
+Stw_timer.c (estw-1.0.1\stw\src):    printf("\n%s \n", stw->wheel_name );
+Stw_timer.c (estw-1.0.1\stw\src):    printf("       Granularity=%u\n", stw->granularity);
+Stw_timer.c (estw-1.0.1\stw\src):    printf("        Wheel Size=%u\n", stw->wheel_size);
+Stw_timer.c (estw-1.0.1\stw\src):    printf("        Tick Count=%u\n", stw->ticks);
+Stw_timer.c (estw-1.0.1\stw\src):    printf("       Spoke Index=%u\n", stw->spoke_index);
+Stw_timer.c (estw-1.0.1\stw\src):    printf("     Active timers=%u\n", stw->timer_active);
+Stw_timer.c (estw-1.0.1\stw\src):    printf("    Expired timers=%u\n", stw->timer_expired);
+Stw_timer.c (estw-1.0.1\stw\src):    printf("      Hiwater mark=%u\n", stw->timer_hiwater_mark);
+Stw_timer.c (estw-1.0.1\stw\src):    printf("    Started timers=%u\n", stw->timer_starts);
+Stw_timer.c (estw-1.0.1\stw\src):    printf("  Cancelled timers=%u\n", stw->timer_cancelled);
